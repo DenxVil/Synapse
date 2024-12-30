@@ -101,6 +101,8 @@ body {
   border-radius: 10px;
 }
 
+.events-grid {
+  color: #333; /* sets text color to a darker gray */
 .contact {
   background-image: linear-gradient(to bottom, #663300, #996600);
   color: #fff;
