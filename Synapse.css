@@ -151,3 +151,51 @@ footer p {
   font-size: 18px;
   margin-bottom: 10px;
 }
+
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+  .hero h1 {
+    font-size: 36px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    max-width: 400px;
+  }
+  .hero h1 {
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+  .events-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
