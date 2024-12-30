@@ -4,7 +4,11 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.event-image {
+  width: 80%; /* adjust the width to your liking */
+  margin: 0 auto; /* center the image horizontally */
+  height: auto; /* maintain the image's aspect ratio */
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
