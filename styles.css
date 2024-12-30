@@ -62,6 +62,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  color: #333; /* sets text color to a darker gray */
 }
 
 .event {
@@ -105,8 +106,7 @@ body {
   border-radius: 10px;
 }
 
-.events-grid {
-  color: #333; /* sets text color to a darker gray */
+  
 .contact {
   background-image: linear-gradient(to bottom, #663300, #996600);
   color: #fff;
