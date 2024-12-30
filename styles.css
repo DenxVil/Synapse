@@ -46,7 +46,12 @@ body {
   font-size: 18px;
   margin-bottom: 20px;
 }
-
+.event-section {
+background-image: url('background-image.jpg');
+background-size: cover;
+background-position: center;
+height: 500px; /* adjust the height as needed */
+}
 .events {
   background-image: linear-gradient(to bottom, #009999, #33cccc);
   color: #fff;
