@@ -1,0 +1,153 @@
+# Soley coded by Denvil ♥️
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, #003399, #3377b2);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.events {
+  background-image: linear-gradient(to bottom, #009999, #33cccc);
+  color: #fff;
+  padding: 20px;
+}
+
+.events h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.event {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.event p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.gallery h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.contact {
+  background-image: linear-gradient(to bottom, #663300, #996600);
+  color: #fff;
+  padding: 20px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #3377b2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
